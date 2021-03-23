@@ -1,0 +1,265 @@
+
+ 
+
+
+ 
+
+ #red{
+   background-color:red;
+ }
+ 
+ #black{
+   background-color:black;
+ }
+
+.wheelBlock {
+ position: relative;
+    min-height: 150px;
+    border-radius: 4px;
+    text-align: center;
+    overflow: hidden;}
+
+
+.wheelObject {
+  text-align: center;
+    padding-top: 5px;
+
+}
+
+.wrapper {
+  position: relative;
+    display: inline-block;
+}
+
+.wheelRotators {
+  transform-origin: 50% 50%;
+}
+
+.wheel {
+  width: 200px;
+    height: 200px;
+    background: url(img/wheelnobg.png);
+    background-size: cover;
+    animation: wheel-animation 12s ease both;
+    transform-origin: 50% 50%;
+}
+
+.ballRotators {
+  position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: 50% 50%;
+}
+
+.ballWrapper {
+  animation: ball-animation 11s ease both;
+    transform-origin: 50% 50%
+
+}
+
+.ball {
+  background: url(img/wheelball.png);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    animation: ball-animation-2 13s ease both;
+    transform-origin: 50% 50%;
+}
+
+.resultsred {
+  position: absolute;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    width: 60px;
+    height: 60px;
+    background: red;
+    border-radius: 50%;
+    opacity: .9;
+    animation: show-result-text 14s linear both;
+    transform-origin: 50% 50%;
+    color: white;
+}
+
+.resultsblack {
+  position: absolute;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    width: 60px;
+    height: 60px;
+    background: black;
+    border-radius: 50%;
+    opacity: .9;
+    animation: show-result-text 14s linear both;
+    transform-origin: 50% 50%;
+    color: white;
+}
+
+.results8BC34A {
+ 
+  position: absolute;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    width: 60px;
+    height: 60px;
+    background:  #8BC34A;
+    border-radius: 50%;
+    opacity: .9;
+    animation: show-result-text 14s linear both;
+    transform-origin: 50% 50%;
+    color: white;
+}
+
+@keyframes wheel-animation{0%{transform:rotate(0deg)}to{transform:rotate(10turn)}}
+@keyframes ball-animation-2{0%{transform:translate(0)}75%{transform:translate(0)}to{transform:translateY(-35px)}}
+@keyframes ball-animation{0%{transform:rotate(0deg)}to{transform:rotate(-10turn)}}
+@keyframes show-result-text{0%{opacity:0;transform:scale(5)}50%{opacity:0;transform:scale(5)}90%{opacity:0;transform:scale(5)}to{opacity:1;transform:scale(1.2)}}
+ 
+
+ #deg181 {
+  transform: rotate(181deg);
+ }
+
+ #deg44 {
+  transform: rotate(44deg);
+ }
+
+ #deg239 {
+  transform: rotate(239deg);
+ }
+
+ #deg161 {
+  transform: rotate(161deg);
+ }
+
+ #deg220 {
+  transform: rotate(220deg);
+ }
+
+ #deg365 {
+  transform: rotate(365deg);
+ }
+
+ #deg277 {
+  transform: rotate(277deg);
+ }
+
+ #deg122 {
+  transform: rotate(122deg);
+ }
+
+ #deg336 {
+  transform: rotate(336deg);
+ }
+
+ #deg83 {
+  transform: rotate(83deg);
+ }
+
+ #deg355 {
+  transform: rotate(355deg);
+ }
+
+ #deg316 {
+  transform: rotate(316deg);
+ }
+
+ #deg142 {
+  transform: rotate(142deg);
+ }
+
+ #deg297 {
+  transform: rotate(297deg);
+ }
+
+ #deg64 {
+  transform: rotate(64deg);
+ }
+
+ #deg200 {
+  transform: rotate(200deg);
+ }
+
+ #deg25 {
+  transform: rotate(25deg);
+ }
+
+ #deg258 {
+  transform: rotate(258deg);
+ }
+
+ #deg103 {
+  transform: rotate(103deg);
+ }
+
+ #deg210 {
+  transform: rotate(210deg);
+ }
+
+ #deg54 {
+  transform: rotate(54deg);
+ }
+
+ #deg229 {
+  transform: rotate(229deg);
+ }
+
+ #deg93 {
+  transform: rotate(93deg);
+ }
+
+ #deg345 {
+  transform: rotate(345deg);
+ }
+
+ #deg15 {
+  transform: rotate(15deg);
+ }
+
+ #deg249 {
+  transform: rotate(249deg);
+ }
+
+
+ #deg171 {
+  transform: rotate(171deg);
+ }
+
+ #deg287 {
+  transform: rotate(287deg);
+ }
+
+ #deg132 {
+  transform: rotate(132deg);
+ }
+
+ #deg112 {
+  transform: rotate(112deg);
+ }
+
+ #deg326 {
+  transform: rotate(326deg);
+ }
+
+ #deg74 {
+  transform: rotate(74deg);
+ }
+
+ #deg190 {
+  transform: rotate(190deg);
+ }
+
+ #deg34 {
+  transform: rotate(34deg);
+ }
+
+ #deg268 {
+  transform: rotate(268deg);
+ }
+
+ #deg152 {
+  transform: rotate(152deg);
+ }
+
+ #deg306 {
+  transform: rotate(306deg);
+ }

@@ -1,0 +1,818 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: "Montserrat",sans-serif!important;
+}
+
+:root {
+    --bw_color_text: #F0F2F5;
+    --cardbackground: #fff;
+    --text-background: #000;
+
+    --header_tint: #2979FF;
+    --tabbar_active_icon: #2979FF;
+
+    --background_content: #F0F2F5 !important;
+    --modal_card_background: #fff !important;
+    --header_background: #fff !important;
+    --search_bar_background: #fff !important;
+    --search_bar_field_background: #283848 !important;
+    --tabbar_background: #fff !important;
+    --field_background: #fff !important;
+    --header_alternate_background: #fff !important;
+    --header_text: black !important;
+    --text_primary: black !important;
+    --header_text_secondary: black !important;
+    --overlay_status_icon: black !important;
+    --header_text_alternate: black !important;
+    --separator_common: #fff !important;
+    --header_tint_alternate: #3498db !important;
+    --button_primary_background: #3498db !important;
+    --text_secondary: black !important;
+  
+}
+
+body {
+  --cardbackground: #fff;
+  --text-background: #fff;
+    --background_content: #F0F2F5 !important;
+    --modal_card_background: #F0F2F5 !important;
+    --header_background: #fff !important;
+    --search_bar_background: #fff !important;
+    --search_bar_field_background: #283848 !important;
+    --field_background: #fff !important;
+    --tabbar_background: #fff !important;
+    --header_alternate_background: #fff !important;
+    --header_text: black !important;
+    --text_primary: black !important;
+    --header_text_secondary: black !important;
+    --header_text_alternate: black !important;
+    --overlay_status_icon: black !important;
+    --separator_common: #fff !important;
+    --header_tint_alternate: #3498db !important;
+    --button_primary_background: #3498db !important;
+}
+
+
+
+
+.Footer {
+    color: black;
+    font-weight: 450;
+}
+.Button {
+    border-radius: 7px !important;
+}
+
+.Tabbar--ios.Tabbar--shadow::before {
+    background: #fff !important;
+}
+
+.ModalPage .ModalPage__in {
+    border-radius: 8px 8px 0 0;
+}
+
+.TabbarItem {
+    color: black;
+}
+.TabbarItem--selected {
+
+}
+.TabbarItem .Counter__in {
+    font-size: 10px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.Banner__in {
+   background-color: #fff !important
+}
+.Card {
+  background-color: #F0F2F5
+}
+.Counter--prominent {
+    background: #1abc9c !important;
+}
+.message_avatar, .message_avatar img {
+  background: rgba(0, 29, 61, 0.08);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.08);
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+}
+.Preloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--dynamic_gray);
+}
+.message_avatar a {
+  cursor: pointer;
+}
+
+.message_wrapp, .message_comment_icon, .message_mark {
+  background: #F4F4F4;
+}
+
+.message_wrapp {
+  width: 70%;
+  height: auto;
+  padding: 20px 26px;
+  margin-left: 18.5px;
+  border-radius: 15px;
+}
+
+.message_title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 21px;
+}
+
+.message_text {
+  white-space: pre-wrap;
+  font-size: 15px;
+}
+
+.message_time {
+  margin-top: 11.5px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #CBCBCB;
+}
+
+.message_down_box {
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 50px;
+  display: flex;
+}
+
+.message_comment_icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.message_comment_icon {
+  display: flex;
+  align-items: center;
+}
+
+.comment_icon {
+  margin: auto;
+  color: #4B4B4B;
+}
+
+.comment_icon:hover {
+  cursor: pointer;
+  color: #3F8AE0;
+}
+
+.message_mark {
+  background: #F4F4F4;
+  border-radius: 86px;
+  padding: 12.5px 29px;
+}
+
+.wrapp_box_down {
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.delete_mark {
+  cursor: pointer;
+  margin-right: 15px;
+  color: #E64646;
+}
+
+.wrapper_send_money {
+  display: flex;
+}
+
+.send_money_title {
+  height: 233.76px;
+  width: 50%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.333143px;
+  color: #000;
+  padding: 0 33px;
+}
+
+.send_money_inputs {
+  width: 50%;
+  margin: auto;
+}
+
+.ActivityPage,.TxView {
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.NumberView {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 8px 1px rgba(0,0,0,.04),0 8px 20px 0 rgba(0,0,0,.07);
+  box-sizing: border-box;
+  padding: 10px;
+  
+}
+
+.coin1 {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  width: 30vw;
+  height: 30vw;
+  border-radius: 100%;
+  background: #d3b200;
+  animation: spin 3s ease-in-out infinite;
+}
+.diceText {
+
+        width: 100%;
+        height: 100%;
+        top: 30;
+        left: 0;
+        color: #fff;
+        position: absolute;
+        text-align: center;
+        font-size: 100px;
+        font-weight: 500;
+        opacity: 0.8;
+        animation: dice-show-result-text 1s linear both;
+}
+.Header__content {
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.ResultsBox {
+  
+    text-align: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50px;
+    opacity: .9;
+    transform-origin: 50% 50%
+}
+.ResultsBox .text{
+ width: 100%;
+    color: #ecf0f1;
+    line-height: 42px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 300
+}
+.black {
+  background: #000
+}
+
+.red {
+   background: #e74c3c
+}
+.even {
+  background: #2196F3
+}
+.noteven {
+  background: #607D8B
+}
+.evenstavka {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #2196F3;
+    border-radius: 30px;
+    color: white;
+    font-weight: 450;
+
+}
+
+.notevenstavka {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #607D8B;
+    border-radius: 30px;
+    color: white;
+    font-weight: 450;
+
+}
+
+.numberstavka {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #4CAF50;
+    border-radius: 30px;
+    color: white;
+    font-weight: 450;
+
+}
+.diceImg {
+
+        opacity: 1;
+        animation: dice-show-result-text .6s cubic-bezier(0,0,.02,1);
+
+}
+@keyframes dice-show-result-text {
+   from { margin-right: 100%; transform: rotate(0deg)}
+
+ to { margin-right: 0%; transform: rotate(2turn) }
+}
+
+.b7mImg2 {
+        position: relative;
+        opacity: 1;
+        animation: dice-show-result-textt .6s cubic-bezier(0,0,.02,1);
+
+}
+@keyframes dice-show-result-textt {
+   from { right: 50%; transform: rotate(0deg)}
+
+ to { right: 0%; transform: rotate(2turn) }
+}
+
+.b7mImg {
+        position: relative;
+        opacity: 1;
+        animation: dice-show-result-texttt .6s cubic-bezier(0,0,.02,1);
+
+}
+@keyframes dice-show-result-texttt {
+   from { right: 100%; transform: rotate(0deg)}
+
+ to { right: 0%; transform: rotate(2turn) }
+}
+
+.gameImg {
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+  border-radius: 8px;
+  background: url(https://vkcoin-game.ru/static/media/wheel.eb1626bc.png) no-repeat center center;
+  background-size: cover;
+}
+
+.gameImg228 {
+  width: 100%;
+  height: 150px;
+  display: inline-block;
+  border-radius: 8px;
+  background: url(https://sun9-34.userapi.com/sun9-66/impg/VJdv3WYlZJuc2j2UlNazta58e65qWx97eo8QAw/1vrq_uClmmE.jpg?size=1200x506&quality=96&proxy=1&sign=985f4abf2dae42cb9a4afbe5f2b47295&type=album) no-repeat center center;
+  background-size: cover;
+}
+
+.gameImg2281 {
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+  border-radius: 8px;
+  background: url(https://vkcoin-game.ru/static/media/wheel.eb1626bc.png) no-repeat center center;
+  background-size: cover;
+}
+
+.BalanceImg {
+  background: url("../img/forvanya1.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.PopolImg {
+  background: url("../img/forvanya3.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.VivodImg {
+  background: url("../img/forvanya2.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.gameImg93 {
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+  border-radius: 8px;
+  background: url(https://sun9-35.userapi.com/impf/UwGRxLJt2Bfa3kYBnkWfuh6pBJ6YYrlFGL25ew/sUImkgP6pNA.jpg?size=653x368&quality=96&proxy=1&sign=47cdeabafbd013de8ffab800df562d3e&type=album) no-repeat center center;
+  background-size: cover;
+}
+.gameImg9132 {
+  width: 100%;
+  height: 150px;
+  display: inline-block;
+  border-radius: 8px;
+  background: url("../img/forvanya5.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.gameImg91323 {
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+  border-radius: 8px;
+  background: url(https://wallbox.ru/resize/2560x1600/wallpapers/main2/201727/149961812559625b4d436a73.06803398.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.gameImg913 {
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+  border-radius: 8px;
+  background: url("../img/forvanya4.jpeg") no-repeat center center;
+  background-size: cover;
+}
+.gameImg2 {
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+  border-radius: 8px;
+  background: url(https://sun9-39.userapi.com/TGEJ0iaVj51LHLM7iEj0rnZawuNU6Tm6o0fs3g/YG171lOPuO4.jpg) no-repeat center center;
+  background-size: cover;
+}
+.gameImg21 {
+  width: 100%;
+  height: 180px;
+  display: inline-block;
+  border-radius: 8px;
+  background: url(https://sun3.dataix-kz-akkol.userapi.com/TGEJ0iaVj51LHLM7iEj0rnZawuNU6Tm6o0fs3g/YG171lOPuO4.jpg) no-repeat center center;
+  background-size: cover;
+}
+.gameImg51 {
+  width: 100%;
+  height: 180px;
+  display: inline-block;
+  border-radius: 8px;
+  background: url(https://vkcoin-game.ru/static/media/thimbles.0fa13d3a.png) no-repeat center center;
+  background-size: cover;
+}
+.gameImg5 {
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+  border-radius: 8px;
+  background: url(https://vkcoin-game.ru/static/media/thimbles.0fa13d3a.png) no-repeat center center;
+  background-size: cover;
+}
+.gameImg3 {
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+  border-radius: 8px;
+  background: url(https://vkcoin-game.ru/static/media/nvuti.448ae40c.png) no-repeat center center;
+  background-size: cover;
+}
+
+.gameImg4 {
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+  border-radius: 8px;
+  background: url(https://sun2.dataix-kz-akkol.userapi.com/TpTGYeEi2V4XQ9kWpqJl9nq70TkUvKe2SubHuw/Bh0eRiI0w-0.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.coin1::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  content: '';
+  border-radius: 100%;
+  border: 1.25vw #ecc700 solid;
+  transform: translate(-50%,-50%);
+}
+
+.coin1::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  content: '';
+  border: 1vw #ffd700 solid;
+  border-radius: 100%;
+  transform: translate(-50%,-50%);
+}
+
+.coin1 span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #ffd700;
+  font-size: 5vw;
+  font-family: impact;
+}
+
+@keyframes spin {
+  0% {
+    transform: scale(1,1)   rotateY(0deg)   translateY(0);
+  }
+
+  10% {
+    transform: scale(1,1)   translateY(0);
+  }
+
+  30% {
+    transform: scale(1,1)  rotateY(180deg) translateY(-210px);
+  }
+
+  50% {
+    transform: scale(1,1) rotateY(360deg) translateY(0);
+  }
+
+  57% {
+    transform: scale(1,1)     translateY(-7px);
+  }
+
+  64% {
+    transform: scale(1,1)     translateY(0);
+  }
+
+  100% {
+    transform: scale(1,1)   rotateY(360deg)   translateY(0);
+  }
+}
+
+.NumberView__description {
+  font-size: 14px;
+  line-height: 14px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.NumberView__description,.NumberView__value {
+  font-family: TT Commons,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+  font-weight: 400;
+}
+
+.xui {
+  text-decoration: none;
+  background-color: white;
+}
+
+.NumberView__value {
+  font-size: 32px;
+  line-height: 32px;
+  color: var(--text_primary);
+  white-space: nowrap;
+}
+
+.NumberView__value:after {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  content: "";
+  background-image: url(https://vk.com);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  margin-left: 8px;
+  vertical-align: -4px;
+}
+
+.NumberView__trend {
+  padding-top: 5px;
+  font-size: 15px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #909499;
+}
+
+.TabbarItem.games {
+  color: black;
+
+  border-radius: 12px;
+  transition: all 120ms linear;
+  position: relative;
+  transform: translateY(0);
+}
+
+.TabbarItem--selected.games {
+      color: white;
+  background-color: #EB326F;
+
+  border-radius: 12px;
+  transition: all 120ms linear;
+  position: relative;
+  transform: translateY(0);
+  
+}
+
+.TabbarItem--selected.feedу {
+      color: white;
+  background-color: #2FAB82;
+
+  border-radius: 12px;
+  transition: all 120ms linear;
+  position: relative;
+  transform: translateY(0);
+}
+.TabbarItem--selected.raiting {
+      color: white;
+  background-color: #FF7E22;
+
+  border-radius: 12px;
+  transition: all 120ms linear;
+  position: relative;
+  transform: translateY(0);
+  
+}
+.TabbarItem--selected.chat {
+      color: white;
+  background-color: #F5C944;
+
+  border-radius: 12px;
+  transition: all 120ms linear;
+  position: relative;
+  transform: translateY(0);
+  
+}
+.TabbarItem--selected.other {
+      color: white;
+  background-color: #2486E8;
+
+  border-radius: 12px;
+  transition: all 120ms linear;
+  position: relative;
+  transform: translateY(0);
+  
+}
+
+.send_money_inputs input {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 7.17055px;
+  margin-bottom: 13px;
+  padding: 13px;
+  width: 80%;
+  color: #000;
+  border: 0;
+}
+
+.message-l-box {
+    display: inline-block;
+    width: 70%;
+    border-radius: 15px;
+    padding: 0px 12px 0px 10px;
+    margin-left: 55px;
+    margin-top: 10px;
+    background: white;
+    word-break: break-word;
+    height: auto;
+    
+}
+.av-l {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 8px;
+    position: absolute;
+    bottom: 0px;
+}
+.av-r {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.left-messages {
+    position: relative;
+    display: flex;
+    width: 90%;
+}
+.right-messages{
+    right: 0;
+    position: relative;
+    display: flex;
+    width: 95%;
+}
+
+.message-r-box {
+    position: relative;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 0px 22px 0px 10px;
+    margin-top: 2%;
+    width: 70%;
+    background: #2c2d2f;
+    word-break: break-word;
+}
+
+.message-name {
+    color: white;
+    font-size: 14px;
+    margin-top: 7px;
+    margin-bottom: -10px;
+}
+
+.message-time {
+    font-size: 11.5px;
+    padding-top: 3px;
+    margin-top: -17px;
+    margin-bottom: 5px;
+    color: #879bb3;
+}
+
+.m7 {
+  background: #3F51B5
+}
+.b7 {
+  background: #3F51B5
+}
+.s7 {
+  background: #4CAF50
+}
+
+.secondImgb7m {
+  margin-left: 10px
+}
+.resultb7mText {
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    line-height: 204px;
+    top: 0;
+    left: 0;
+    background: hsla(0,0%,98%,0.9);
+    color: black;
+    text-align: center;
+    font-family: "Montserrat",serif;
+    border-radius: 10px;
+    font-size: 100px;
+    font-weight: 500;
+    opacity: .8;
+    animation: bm-show-result-text 2s ease-out both;
+}
+
+@keyframes bm-show-result-text{0%{opacity:0;transform:scale(1)}60%{opacity:0;transform:scale(1)}to{opacity:1;transform:scale(1)}}
+
+.notvidel {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.videl {
+  -webkit-touch-callout: text; /* iOS Safari */
+  -webkit-user-select: text;   /* Chrome/Safari/Opera */
+  -khtml-user-select: text;    /* Konqueror */
+  -moz-user-select: text;      /* Firefox */
+  -ms-user-select: text;       /* Internet Explorer/Edge */
+  user-select: text;
+}
+.FormLayout__container {
+  padding: 0;
+}
+.FormLayout__row {
+  padding-top: 0;
+}
+.selectedbtnwheel {
+  background-color: #3498DB;
+  color:#FFFFFF;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.chip {
+  display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 8px 15px;
+    text-align: center;
+    background: #D8D9DC;
+    border-radius: 12px;
+    color: black;
+}
+
+
+.Cell__indicator {
+  border-radius: 20px;
+}
+
+/* --------------------- */

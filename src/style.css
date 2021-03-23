@@ -1,0 +1,176 @@
+* {
+    transition: 150ms ease-in-out;
+}
+
+p, html, body {
+    padding: 0;
+    margin: 0;
+}
+
+a, img, div, p {
+    -webkit-touch-callout: none;
+}
+
+.body, html {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.BalanceBox {
+font-family: TTCommons,Roboto,Open Sans,sans-serif;
+font-size: 3vw;
+font-weight: 500;
+color: .999;
+margin-top: 15vw;
+color: #777;
+display: flex;
+flex-direction: column;
+align-items: center
+}
+.BalanceBox .BalanceBox__balance {
+color: #000;
+margin-top: .5vw;
+font-weight: 600;
+font-size: 12vw;
+display: flex;
+align-items: center;
+text-align: center;
+max-width: 90vw
+}
+
+.OnlineBox {
+    font-family: TTCommons,Roboto,Open Sans,sans-serif;
+    font-size: 3.75vw;
+    font-weight: 500;
+    border-radius: 0 5vw 5vw 0;
+    position: absolute;
+    top: 3.75vw;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b56dff;
+    color: #fff;
+    padding: 1.5vw 2.25vw 1.5vw 1.5vw
+}
+
+.MenuButtons {
+    font-family: "TTCommons";
+    background: linear-gradient(90deg,#f2994a,#f2c94c);
+    box-shadow: 0 .5vw 6vw 0 rgba(0,0,0,.25),0 0 .5vw 0 rgba(0,0,0,.08);
+    height: 21.25vw;
+    margin: 7.5vw 4vw 20vw;
+    border-radius: 2.5vw;
+    display: flex
+}
+
+.MenuButtons .MenuButtons__button {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #000;
+    font-size: 4vw
+}
+
+.MenuButtons .MenuButtons__button .MenuButtons__icon {
+    height: 6vw;
+    width: 6vw
+}
+
+.OnlineBox {
+    font-family: TTCommons,Roboto,Open Sans,sans-serif;
+    font-size: 3.75vw;
+    font-weight: 500;
+    border-radius: 0 5vw 5vw 0;
+    position: absolute;
+    top: 3.75vw;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b56dff;
+    color: #fff;
+    padding: 1.5vw 2.25vw 1.5vw 1.5vw
+}
+
+.btn {
+    text-decoration: none;
+    border: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.butt {
+
+}
+
+.body {
+    background: linear-gradient(90deg, #fe9965, #ff6661);
+}
+
+
+/* div.Icon--24 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.buttons_custom.Icon--24 {
+    width: 78px !important;
+    height: 54px !important;
+}
+.buttons_custom.Icon--24>svg {
+    width: 42px !important;
+    height: 44px !important;
+} */
+
+.title {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-top: 60px;
+    margin-bottom: 0px;
+
+    text-align: center;
+    color: #00000;
+}
+.title > a {
+    color: #ffffff;
+    /* text-decoration: unset; */
+}
+
+.title, .kr--title > a {
+    font-family: TTCommons,Roboto,Open Sans,sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.text {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+    text-align: center;
+    color: #000000;
+}
+.text > a {
+    color: #000000;
+    /* text-decoration: unset; */
+}
+
+.text, .text > a {
+    font-family: TTCommons,Roboto,Open Sans,sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+h2 {
+    color: #000;
+}
